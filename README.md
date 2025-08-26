@@ -472,7 +472,7 @@ Semantic elements clearly describe their **meaning and purpose** both to the bro
 </body>
 ```
 
-> [!NOTE] Key Benefits of Semantic Elements
+> [!NOTE]
 >
 > - **Accessibility:** Screen readers and assistive devices can better understand content structure.
 > - **SEO-Friendly:** Search engines can interpret the page more accurately.
