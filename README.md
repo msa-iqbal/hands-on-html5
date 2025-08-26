@@ -26,16 +26,17 @@ Perfect for learners and developers who need a quick, practical HTML5 reference.
 | 9   | [Links](#anchor-text--hyperlinks)                          | Internal, External                                |
 | 10  | [Colors](#colors-in-html--css)                             | Named, RGB, RGBA, HEX, HSL, Gradient              |
 | 11  | [Images](#image)                                           | Attributes, Favicon, Image Map                    |
-| 12  | [Audio & Video](#audio--video)                             | Audio, Video, Subtitles, Captions                 |
-| 13  | [Lists](#lists)                                            | Ordered, Unordered, Definition, Nested            |
-| 14  | [Tables](#tables)                                          | Attributes, Sections, Merging, Captions           |
-| 15  | [Forms](#forms)                                            | Inputs, Textarea, Dropdowns                       |
-| 16  | [iFrame](#html-iframe)                                     | Internal, External                                |
-| 17  | [File Paths](#html-file-path)                              | Absolute, Relative, Root-relative                 |
-| 18  | [Web Components](#html-web-components)                     | Templates, Slots, Shadow DOM                      |
-| 19  | [HTML5 APIs](#html5-apis)                                  | Overview                                          |
-| 20  | [Global Attributes](#global-attributes)                    | Overview                                          |
-| 21  | [Web Accessibility](#web-accessibility)                    | Guidelines, Best Practices                        |
+| 12  | [Canvas](#html-canvas)                                     | Drawing, Shapes, Animations, Interactivity        |
+| 13  | [Audio & Video](#audio--video)                             | Audio, Video, Subtitles, Captions                 |
+| 14  | [Lists](#lists)                                            | Ordered, Unordered, Definition, Nested            |
+| 15  | [Tables](#tables)                                          | Attributes, Sections, Merging, Captions           |
+| 16  | [Forms](#forms)                                            | Inputs, Textarea, Dropdowns                       |
+| 17  | [iFrame](#html-iframe)                                     | Internal, External                                |
+| 18  | [File Paths](#html-file-path)                              | Absolute, Relative, Root-relative                 |
+| 19  | [Web Components](#html-web-components)                     | Templates, Slots, Shadow DOM                      |
+| 20  | [HTML5 APIs](#html5-apis)                                  | Overview                                          |
+| 21  | [Global Attributes](#global-attributes)                    | Overview                                          |
+| 22  | [Web Accessibility](#web-accessibility)                    | Guidelines, Best Practices                        |
 
 ---
 
@@ -441,7 +442,7 @@ Semantic elements clearly describe their **meaning and purpose** both to the bro
 | `<template>`   | Reusable HTML chunks (inactive)        |
 | `<slot>`       | Web Components content insertion point |
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-semantic-tags.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-semantic-tags.html)
 
 #### ⿻ Example Usage —
 
@@ -539,7 +540,7 @@ Inline elements are used to format or emphasize text content without breaking th
 | `<wbr>`        | Optional word break | `Supercalifragilistic<wbr />expialidocious` |
 | `<blockquote>` | Long quotation      | `<blockquote>“Quote”</blockquote>`          |
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-text-and-inline-elements.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-text-and-inline-elements.html)
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -578,7 +579,7 @@ The `<a>` (anchor) element is used to create **hyperlinks**, which allow users t
 | `_top`        | `target`      | Opens the linked document in the **full body of the window** (breaking out of frames). |
 | _framename_   | `target`      | Opens the linked document in a **specific named frame**.                               |
 
-#### [🕮 Live Example](https://thetinsights.github.io/examples/live/html/html-links-and-anchors.html)
+#### [🕮 Live Example](https://thetinsights.github.io/web-quickref/live/html/html-links-and-anchors.html)
 
 #### ⿻ Example Usage —
 
@@ -726,7 +727,7 @@ Linear, radial, conic, etc. (CSS3).
 
 [Explore gradients —](https://www.w3schools.com/css/css3_gradients.asp)
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-colors.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-colors.html)
 
 ### ❏❏❏ CSS Opacity
 
@@ -827,7 +828,7 @@ The `<img>` tag is **empty** (no closing tag) and only contains attributes.
 <img src="img_chania.jpg" alt="Flowers in Chania" loading="lazy" />
 ```
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-image.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-image.html)
 
 ## ၊၊||၊ Favicon Icon
 
@@ -888,7 +889,7 @@ Favicons are added using the `<link>` tag inside the `<head>` section of your HT
 > - Place the favicon file in your root directory for automatic detection by some browsers.
 > - Multiple sizes can be provided for different devices (desktop, mobile, tablets).
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-favicon.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-favicon.html)
 
 ## ၊၊||၊ HTML Image Map
 
@@ -923,7 +924,7 @@ It is created using the `<map>` element together with one or more `<area>` eleme
 - `href` – Destination link for the area.
 - `alt` – Alternative text describing the area.
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-image-map.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-image-map.html)
 
 #### [⿻ Image Maps Generator](https://www.image-map.net)
 
@@ -949,6 +950,257 @@ It is created using the `<map>` element together with one or more `<area>` eleme
 > - The `usemap` attribute in `<img>` must match the `name` of the `<map>`.
 > - Always include `alt` attributes for accessibility.
 > - Image maps should be used carefully — they are not mobile-friendly if not designed properly.
+
+<!-- START "Jump to Top"-->
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
+</p>
+<!-- END "Jump to Top" -->
+
+# HTML Canvas
+
+The `<canvas>` element in HTML is a **powerful API** used to draw graphics directly in the browser via JavaScript. It allows for dynamic, scriptable rendering of **2D shapes, images, and animations.** Unlike static images, the canvas is **pixel-based** and provides fine-grained control over drawing operations.
+
+**Syntax**
+
+```html
+<canvas id="myCanvas" width="400" height="300">
+  Your browser does not support the canvas element.
+</canvas>
+```
+
+Attributes:
+
+- `id` — unique identifier for targeting with JavaScript.
+- `width` — width of the canvas in pixels (default: 300px).
+- `height` — height of the canvas in pixels (default: 150px).
+- Content inside `<canvas>` is fallback text for unsupported browsers.
+
+### ၊၊||၊ Working Process
+
+1. **Create the Canvas**: Define the `<canvas>` element in your HTML.
+2. **Get the Canvas Context**: Use JavaScript to get the 2D rendering context of the canvas.
+3. **Draw on the Canvas**: Use the context object to draw shapes, images, and text on the canvas.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Example</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="400" height="300">
+      Your browser does not support the canvas element.
+    </canvas>
+
+    <script>
+      // Get the canvas element
+      const canvas = document.getElementById("myCanvas");
+
+      // Get the 2D rendering context
+      const ctx = canvas.getContext("2d");
+
+      // Draw a red rectangle
+      ctx.fillStyle = "red";
+      ctx.fillRect(50, 50, 100, 100);
+
+      // Draw a blue circle
+      ctx.beginPath();
+      ctx.arc(200, 200, 50, 0, Math.PI * 2);
+      ctx.fillStyle = "blue";
+      ctx.fill();
+    </script>
+  </body>
+</html>
+```
+
+### ၊၊||၊ 1. Drawing Shapes
+
+#### 1.1. Rectangles
+
+```javascript
+ctx.fillStyle = "blue"; // fill color
+ctx.fillRect(50, 50, 100, 75); // x, y, width, height
+
+ctx.strokeStyle = "red"; // border color
+ctx.strokeRect(200, 50, 100, 75);
+
+ctx.clearRect(60, 60, 20, 20); // erase a part
+```
+
+#### 1.2. Circles and Arcs
+
+```javascript
+ctx.beginPath();
+ctx.arc(200, 200, 50, 0, 2 * Math.PI); // x, y, radius, startAngle, endAngle
+ctx.fillStyle = "green";
+ctx.fill();
+ctx.stroke();
+```
+
+#### 1.3. Lines
+
+```javascript
+ctx.beginPath();
+ctx.moveTo(50, 50); // start point
+ctx.lineTo(200, 50); // end point
+ctx.strokeStyle = "black";
+ctx.lineWidth = 5;
+ctx.stroke();
+```
+
+#### 1.4. Paths
+
+```javascript
+ctx.beginPath(); // start a new path
+ctx.moveTo(50, 150); // starting point
+ctx.lineTo(150, 150); // draw line
+ctx.lineTo(100, 250); // draw another line
+ctx.closePath(); // close path
+ctx.stroke(); // render outline
+ctx.fillStyle = "green";
+ctx.fill(); // fill the shape
+```
+
+#### 1.5. Clipping
+
+```javascript
+ctx.beginPath();
+ctx.arc(200, 200, 100, 0, Math.PI * 2);
+ctx.clip();
+
+ctx.fillStyle = "red";
+ctx.fillRect(0, 0, 400, 400);
+```
+
+### ၊၊||၊ 2. Drawing Text
+
+```javascript
+ctx.font = "30px Arial"; // font style
+ctx.fillStyle = "purple"; // text color
+ctx.fillText("Hello, Canvas!", 50, 50); // text, x, y
+
+ctx.strokeStyle = "blue"; // outline color
+ctx.strokeText("Hello, Canvas!", 50, 100);
+
+/* Text Alignment */
+ctx.textAlign = "center"; // left, center, right
+ctx.textBaseline = "middle"; // top, middle, bottom, alphabetic
+```
+
+### ၊၊||၊ 3. Transformations
+
+#### 3.1. Translation, Rotation, Scaling
+
+```javascript
+ctx.translate(200, 150); // move origin
+ctx.rotate(Math.PI / 4); // rotate 45 degrees
+ctx.scale(1.5, 1.5); // enlarge
+
+ctx.fillStyle = "green";
+ctx.fillRect(-50, -50, 100, 100);
+```
+
+#### 3.2. Save and Restore State
+
+```javascript
+ctx.save(); // save current state
+ctx.fillStyle = "red";
+ctx.fillRect(50, 50, 100, 100);
+
+ctx.restore(); // restore to previous state
+ctx.fillStyle = "blue";
+ctx.fillRect(50, 50, 100, 100);
+```
+
+### ၊၊||၊ 4. Images
+
+```javascript
+const img = new Image();
+img.src = "image.jpg";
+img.onload = function () {
+  ctx.drawImage(img, 50, 50, 200, 200); // image, x, y, width, height
+};
+
+/* drawImage can also crop images using 9 parameters: */
+ctx.drawImage(img, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+```
+
+### ၊၊||၊ 5. Colors, Gradients, and Patterns
+
+#### 5.1. Solid Colors
+
+```javascript
+ctx.fillStyle = "rgba(255,0,0,0.5)"; // semi-transparent red
+ctx.fillRect(0, 0, 100, 100);
+```
+
+#### 5.2. Gradients
+
+```javascript
+const gradient = ctx.createLinearGradient(0, 0, 200, 0);
+gradient.addColorStop(0, "red");
+gradient.addColorStop(1, "blue");
+ctx.fillStyle = gradient;
+ctx.fillRect(0, 0, 200, 200);
+```
+
+#### 5.3. Patterns
+
+```javascript
+const img = new Image();
+img.src = "pattern.png";
+img.onload = () => {
+  const pattern = ctx.createPattern(img, "repeat");
+  ctx.fillStyle = pattern;
+  ctx.fillRect(0, 0, 400, 300);
+};
+```
+
+### ၊၊||၊ 6. Pixel Manipulation
+
+```javascript
+const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+const data = imageData.data;
+
+for (let i = 0; i < data.length; i += 4) {
+  data[i] = 255 - data[i]; // red
+  data[i + 1] = 255 - data[i + 1]; // green
+  data[i + 2] = 255 - data[i + 2]; // blue
+}
+
+ctx.putImageData(imageData, 0, 0);
+```
+
+### ၊၊||၊ 7. Animation
+
+```javascript
+let x = 0;
+let y = 0;
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillStyle = "red";
+  ctx.fillRect(x, y, 50, 50);
+
+  x += 1;
+  y += 1;
+  requestAnimationFrame(draw);
+}
+
+draw();
+```
+
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-canvas.html)
+
+> [!TIP]
+>
+> - **Always set width & height** on the canvas — prevents stretching.
+> - **Use `requestAnimationFrame`** for smooth animations.
+> - **Minimize redraws** — only clear/redraw areas that change.
+> - **Separate logic from rendering** — keeps code clean.
+> - **Fallback text** is important for accessibility.
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -993,7 +1245,7 @@ The `<audio>` element is used to embed sound content, such as music or podcasts.
 </audio>
 ```
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-audio-video.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-audio-video.html)
 
 ## ၊၊||၊ HTML Video
 
@@ -1058,7 +1310,7 @@ Subtitles / Captions: Use the `<track>` element.
 - `srclang="en"` — Language of the subtitles (English)
 - `label="English"` — Human-readable label shown to users
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-audio-video.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-audio-video.html)
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -1207,7 +1459,7 @@ ul {
 }
 ```
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-lists.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-lists.html)
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -1429,7 +1681,7 @@ Instead of HTML attributes, CSS can style tables for better control.
 > - Always include `<thead>` and `<tbody>` for accessibility.
 > - Provide captions using `<caption>` to describe the table.
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-tables.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-tables.html)
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -2275,7 +2527,7 @@ Forms play a crucial role in user interaction. To make them user-friendly and vi
 > - Specify button types (`submit`, `reset`, `button`).
 > - Keep forms short & mobile-friendly.
 
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-forms.html)
+#### [⿻ Live Example](https://thetinsights.github.io/web-quickref/live/html/html-forms.html)
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -2428,8 +2680,6 @@ Google Maps can be embedded for interactive location displays, with attributes l
 - Embed objects — Use `<embed>` or `<object>`.
 - Dynamic loading — Use Fetch API or AJAX to fetch and inject content.
 - Server-side rendering — Fetch and serve external content on your server.
-
-#### [⿻ Live Example](https://thetinsights.github.io/examples/live/html/html-forms.html)
 
 <!-- START "Jump to Top"-->
 <p align="right">
@@ -2759,17 +3009,18 @@ HTML5 introduced a variety of **JavaScript APIs** that extend what the browser c
 
 ## 🖥️ Live Examples
 
-- [HTML Semantic Tags](https://thetinsights.github.io/examples/live/html/html-semantic-tags.html)
-- [HTML Text & Inline Elements](https://thetinsights.github.io/examples/live/html/html-text-and-inline-elements.html)
-- [HTML Links & Anchors](https://thetinsights.github.io/examples/live/html/html-links-and-anchors.html)
-- [HTML Colors](https://thetinsights.github.io/examples/live/html/html-colors.html)
-- [HTML Image](https://thetinsights.github.io/examples/live/html/html-image.html)
-- [HTML Lists](https://thetinsights.github.io/examples/live/html/html-lists.html)
-- [HTML Tables](https://thetinsights.github.io/examples/live/html/html-tables.html)
-- [HTML Forms](https://thetinsights.github.io/examples/live/html/html-forms.html)
-- [HTML Favicon](https://thetinsights.github.io/examples/live/html/html-favicon.html)
-- [HTML Image Map](https://thetinsights.github.io/examples/live/html/html-image-map.html)
-- [HTML Audio & Video](https://thetinsights.github.io/examples/live/html/html-audio-video.html)
+- [HTML Semantic Tags](https://thetinsights.github.io/web-quickref/live/html/html-semantic-tags.html)
+- [HTML Text & Inline Elements](https://thetinsights.github.io/web-quickref/live/html/html-text-and-inline-elements.html)
+- [HTML Links & Anchors](https://thetinsights.github.io/web-quickref/live/html/html-links-and-anchors.html)
+- [HTML Colors](https://thetinsights.github.io/web-quickref/live/html/html-colors.html)
+- [HTML Image](https://thetinsights.github.io/web-quickref/live/html/html-image.html)
+- [HTML Lists](https://thetinsights.github.io/web-quickref/live/html/html-lists.html)
+- [HTML Tables](https://thetinsights.github.io/web-quickref/live/html/html-tables.html)
+- [HTML Forms](https://thetinsights.github.io/web-quickref/live/html/html-forms.html)
+- [HTML Favicon](https://thetinsights.github.io/web-quickref/live/html/html-favicon.html)
+- [HTML Canvas](https://thetinsights.github.io/web-quickref/live/html/html-canvas.html)
+- [HTML Image Map](https://thetinsights.github.io/web-quickref/live/html/html-image-map.html)
+- [HTML Audio & Video](https://thetinsights.github.io/web-quickref/live/html/html-audio-video.html)
 
 ## 📦 Repository Structure
 
