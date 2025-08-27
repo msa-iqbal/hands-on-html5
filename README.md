@@ -1,15 +1,23 @@
 # 📝 Hands-on HTML5 Notes
 
+![GitHub repo size](https://img.shields.io/github/repo-size/msa-iqbal/hands-on-html5)  
+![GitHub contributors](https://img.shields.io/github/contributors/msa-iqbal/hands-on-html5)  
+![GitHub last commit](https://img.shields.io/github/last-commit/msa-iqbal/hands-on-html5)  
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
+![Stars](https://img.shields.io/github/stars/msa-iqbal/hands-on-html5?style=social)
+
 A concise collection of self-made HTML5 notes, code snippets, and best practices.
 
-Created and maintained by [Md. Shah Alam Iqbal](https://github.com/msa-iqbal) as part of the [T-Insights](https://github.com/thetinsights) initiative.
+Maintained by [Md. Shah Alam Iqbal](https://github.com/msa-iqbal) as part of the [T-Insights](https://github.com/thetinsights) initiative.
 
-Perfect for learners and developers who need a quick, practical HTML5 reference.
+Perfect for learners and developers who need a quick, practical HTML5 reference and fast lookup guide.
 
 - Covers key HTML5 topics with clear explanations
 - Copy-ready code snippets
 - Best practices for accessibility & SEO
 - Beginner-friendly and continuously updated
+
+---
 
 # Table of Contents
 
@@ -42,7 +50,7 @@ Perfect for learners and developers who need a quick, practical HTML5 reference.
 
 # Introduction
 
-HTML5 is the latest version of HyperText Markup Language, the standard for structuring and presenting content on the web. It introduces semantic elements, multimedia support (audio, video), graphics (canvas, SVG), offline storage, and better APIs for modern web apps.
+HTML5 is the latest version of **HyperText Markup Language**, the standard for structuring and presenting content on the web. It introduces **semantic elements**, **built-in multimedia support**, **graphics APIs**, **offline storage**, and **powerful APIs** that make modern web apps possible.
 
 ### ၊၊||၊ HTML5 Features
 
@@ -3005,22 +3013,15 @@ HTML5 introduced a variety of **JavaScript APIs** that extend what the browser c
    cd hands-on-html5
    ```
 
-3. Open `README.md` in your favorite Markdown editor (e.g., [Obsidian](https://obsidian.md/), VS Code, Typora).
+3. Open `README.md` in your favorite Markdown editor (e.g., [Obsidian](https://obsidian.md/), [VS Code](https://code.visualstudio.com/), [Typora](https://typora.io/))
 
 ## 🖥️ Live Examples
 
-- [HTML Semantic Tags](https://thetinsights.github.io/web-quickref/live/html/html-semantic-tags.html)
-- [HTML Text & Inline Elements](https://thetinsights.github.io/web-quickref/live/html/html-text-and-inline-elements.html)
-- [HTML Links & Anchors](https://thetinsights.github.io/web-quickref/live/html/html-links-and-anchors.html)
-- [HTML Colors](https://thetinsights.github.io/web-quickref/live/html/html-colors.html)
-- [HTML Image](https://thetinsights.github.io/web-quickref/live/html/html-image.html)
-- [HTML Lists](https://thetinsights.github.io/web-quickref/live/html/html-lists.html)
-- [HTML Tables](https://thetinsights.github.io/web-quickref/live/html/html-tables.html)
-- [HTML Forms](https://thetinsights.github.io/web-quickref/live/html/html-forms.html)
-- [HTML Favicon](https://thetinsights.github.io/web-quickref/live/html/html-favicon.html)
-- [HTML Canvas](https://thetinsights.github.io/web-quickref/live/html/html-canvas.html)
-- [HTML Image Map](https://thetinsights.github.io/web-quickref/live/html/html-image-map.html)
-- [HTML Audio & Video](https://thetinsights.github.io/web-quickref/live/html/html-audio-video.html)
+- **Structure:** [HTML Semantic Tags](https://thetinsights.github.io/web-quickref/live/html/html-semantic-tags.html) • [HTML Favicon](https://thetinsights.github.io/web-quickref/live/html/html-favicon.html)
+- **Text & Media:** [HTML Text & Inline Elements](https://thetinsights.github.io/web-quickref/live/html/html-text-and-inline-elements.html) • [HTML Links & Anchors](https://thetinsights.github.io/web-quickref/live/html/html-links-and-anchors.html) • [HTML Colors](https://thetinsights.github.io/web-quickref/live/html/html-colors.html)
+- **Graphics:** [HTML Image](https://thetinsights.github.io/web-quickref/live/html/html-image.html) • [HTML Image Map](https://thetinsights.github.io/web-quickref/live/html/html-image-map.html) • [HTML Canvas](https://thetinsights.github.io/web-quickref/live/html/html-canvas.html)
+- **Media:** [HTML Audio & Video](https://thetinsights.github.io/web-quickref/live/html/html-audio-video.html)
+- **Data:** [HTML Lists](https://thetinsights.github.io/web-quickref/live/html/html-lists.html) • [HTML Tables](https://thetinsights.github.io/web-quickref/live/html/html-tables.html) • [HTML Forms](https://thetinsights.github.io/web-quickref/live/html/html-forms.html)
 
 ## 📦 Repository Structure
 
@@ -3057,7 +3058,7 @@ This project is open-source and available under the [MIT License](../LICENSE).
 ## 👨‍💻 Author
 
 **Md. Shah Alam Iqbal**  
-Founder of T-Insights  
+Web Developer | Software Architect | Founder of T-Insights  
 [GitHub](https://github.com/msa-iqbal) • [LinkedIn](https://www.linkedin.com/in/msa-iqbal/)
 
 ## 🙏 Acknowledgments
