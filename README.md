@@ -1,10 +1,6 @@
 # 📝 Hands-on HTML5 Notes
 
-![GitHub repo size](https://img.shields.io/github/repo-size/msa-iqbal/hands-on-html5)  
-![GitHub contributors](https://img.shields.io/github/contributors/msa-iqbal/hands-on-html5)  
-![GitHub last commit](https://img.shields.io/github/last-commit/msa-iqbal/hands-on-html5)  
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
-![Stars](https://img.shields.io/github/stars/msa-iqbal/hands-on-html5?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/msa-iqbal/hands-on-html5) ![GitHub contributors](https://img.shields.io/github/contributors/msa-iqbal/hands-on-html5) ![GitHub last commit](https://img.shields.io/github/last-commit/msa-iqbal/hands-on-html5) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Stars](https://img.shields.io/github/stars/msa-iqbal/hands-on-html5?style=social)
 
 A concise collection of self-made HTML5 notes, code snippets, and best practices.
 
